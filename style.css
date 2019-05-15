@@ -16,11 +16,67 @@
   }
   
   nav > ul > li > a:hover {
-    background-color: black;
+   color: blue;
+  }
+  .submenue {
+    /* display: none; */
+  }
+  nav > ul > li:hover > .submenue {
+    /* display: block; */
+  }
+  input {
+    direction: rtl;
+  }
+  main {
+    direction: rtl;
   }
 .container {
-    width: 900px; margin: auto; position: relative;
+    width: 900px; margin: auto; 
 }
-.container > img {
-    position: absolute;
+.cube {
+  width: 293px;
+  height: 355px;
+  position: relative;
+  float: right;
+}
+.content {
+  position: absolute;
+  color: white;
+  background:rgba(100, 100, 100, 0.8);
+  bottom: 3px;
+  right: 3px;
+  left: 50px;
+}
+.cube1 {
+  width: 293px;
+  height: 355px;
+  position: relative;
+  float: right;
+}
+.content1 {
+  position: absolute;
+  bottom: 160px;
+  right: 3px;
+  }
+.cube1 > img {
+  height: 200px;
+  width: 293px;
+}
+.raw::after {
+  content:"";
+  display:table;
+} 
+.raw1::after {
+  content:"";
+  display:table;
+} 
+h4 {margin: 15px; 
+}
+p {margin: 7px; 
+}
+.content1 > p {
+  float: left;
+}
+.map {
+  float: left;
 }
