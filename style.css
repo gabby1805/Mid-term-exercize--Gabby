@@ -2,6 +2,7 @@
   nav {
     background-color:grey;
     font-family: ariel bold;
+    direction: rtl;
   }
   
   nav > ul > li {
@@ -18,12 +19,24 @@
   nav > ul > li > a:hover {
    color: blue;
   }
+  button > a {
+   text-decoration: none;
+   color: white;
+  }
+  .menu {
+    position: relative;
+  }
   .submenue {
-    /* display: none; */
-  }
-  nav > ul > li:hover > .submenue {
-    /* display: block; */
-  }
+    display: none;
+    position: absolute;
+    margin: 0;
+    text-decoration: none;
+    width: 180px;
+    background-color: grey;
+ }
+  .menu:hover > .submenue {
+    display: block;
+     }
   input {
     direction: rtl;
   }
@@ -55,12 +68,20 @@
 }
 .content1 {
   position: absolute;
-  bottom: 160px;
+  bottom: 150px;
   right: 3px;
+  width: 293px;
   }
 .cube1 > img {
   height: 200px;
   width: 293px;
+}
+.map {
+  height:150px;
+}
+.areas > a {
+  display: block;
+  margin: 10px;
 }
 .raw::after {
   content:"";
@@ -74,9 +95,10 @@ h4 {margin: 15px;
 }
 p {margin: 7px; 
 }
-.content1 > p {
+.content1 > a {
   float: left;
-}
+  margin: 10px;
+  }
 .map {
   float: left;
 }
