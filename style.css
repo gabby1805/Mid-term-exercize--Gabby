@@ -1,0 +1,26 @@
+
+  nav {
+    background-color:grey;
+    font-family: ariel bold;
+  }
+  
+  nav > ul > li {
+    display: inline;
+  }
+  
+  nav > ul > li > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav > ul > li > a:hover {
+    background-color: black;
+  }
+.container {
+    width: 900px; margin: auto; position: relative;
+}
+.container > img {
+    position: absolute;
+}
