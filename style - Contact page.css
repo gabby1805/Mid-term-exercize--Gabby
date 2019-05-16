@@ -1,0 +1,66 @@
+
+  nav {    
+    background-color:grey;
+    height: 130px;
+  }
+  ul{
+    direction: rtl;
+    margin:0;
+  }
+   ul > li {
+    display: inline;
+  }
+  
+  ul > li > a {
+    display: inline-block;
+    font-family: ariel bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav > ul > li > a:hover {
+   color: blue;
+  }
+  button > a {
+   text-decoration: none;
+   color: grey;
+  }
+  .menu {
+    position: relative;
+   
+  }
+  .submenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index:1;
+    background-color: grey;
+    text-decoration: none;
+   }
+   .submenu > a {
+     display : block;
+     padding: 7px;
+     color: white;
+     text-decoration: none;
+
+   }
+   .menu:hover > .submenu {
+    display: block;
+   }
+    input {
+    direction: rtl;
+  }
+  
+.container {
+    width: 900px; margin: auto; 
+}
+
+footer {
+  background-color:grey;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+}
