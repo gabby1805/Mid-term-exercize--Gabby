@@ -1,18 +1,21 @@
 
-  nav {
-       font-family: ariel bold;
-       background-color:grey;
-       direction: rtl;
+  nav {    
+    background-color:grey;
+    height: 130px;
   }
-  
-  nav > ul > li {
+  ul{
+    direction: rtl;
+    margin:0;
+  }
+   ul > li {
     display: inline;
   }
   
-  nav > ul > li > a {
+  ul > li > a {
     display: inline-block;
-    color: white;
+    font-family: ariel bold;
     text-decoration: none;
+    color: white;
     padding: 10px;
   }
   
@@ -25,6 +28,7 @@
   }
   .menu {
     position: relative;
+   
   }
   .submenu {
     display: none;
@@ -58,7 +62,11 @@
   height: 355px;
   position: relative;
   float: right;
+  top: 40px;
 }
+.cube > img {
+  border-bottom-right-radius: 10%;
+  }
 .content {
   position: absolute;
   color: white;
@@ -66,12 +74,14 @@
   bottom: 3px;
   right: 3px;
   left: 50px;
+  border-bottom-right-radius: 15%;
 }
 .cube1 {
   width: 293px;
   height: 355px;
   position: relative;
   float: right;
+  top: 80px;
 }
 .content1 {
   position: absolute;
@@ -83,12 +93,11 @@
   height: 200px;
   width: 293px;
 }
-.map {
-  height:150px;
-}
+
 .areas > a {
   display: block;
-  margin: 10px;
+  padding: 20px;
+  height: 10px;
 }
 .raw::after {
   content:"";
@@ -108,4 +117,12 @@ p {margin: 7px;
   }
 .map {
   float: left;
+}
+footer {
+  background-color:grey;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
 }
