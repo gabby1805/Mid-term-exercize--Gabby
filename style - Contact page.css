@@ -81,7 +81,7 @@ text-decoration: none;
 .leftCube > .content {
   right: 30px;
   top: 0;
-}
+ }
 .content {
   position: absolute;
   direction: rtl;
