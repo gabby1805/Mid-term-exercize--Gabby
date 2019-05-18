@@ -55,6 +55,81 @@
 .container {
     width: 900px; margin: auto; 
 }
+button {
+  float: right;
+  }
+.subheader > a {
+text-decoration: none;
+}
+.content h4 {
+  color: blue;
+    }
+
+.leftCube {
+  top: 100px;
+  margin: 20px;
+  position: relative;
+  float: left;
+  left: 100px;
+}
+
+.formCube {
+  position: relative;
+  float: right;
+  top: 40px;
+}
+.leftCube > .content {
+  right: 30px;
+  top: 0;
+}
+.content {
+  position: absolute;
+  direction: rtl;
+  top: 50px;
+  right: 3px;
+  left: 50px;
+ }
+form {
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  margin: 10px;
+}
+
+.row > label {
+  width: 30%;
+  float: right;
+}
+
+.row > input {
+  width: 60%;
+  float: right;
+}
+
+.application {
+  height: 50px;
+}
+form > .row > button {
+  float: left;
+  margin-left: 25px;
+}
+input.application {
+  width: 295px;
+  height: 70px;
+}
+
+h5 {
+margin:0;
+}
 
 footer {
   background-color:grey;
